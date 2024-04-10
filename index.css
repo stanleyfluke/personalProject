@@ -36,6 +36,7 @@ p{
   height: 100px;
   justify-content: flex-start;
   flex-wrap: wrap;
+
   
 }
 
@@ -52,7 +53,7 @@ img{
 }
 
 .about-me-logo{
-  width: 30%;
+  width: 60%;
   height: 100%;
   font-size: 60px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
