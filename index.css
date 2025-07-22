@@ -1,87 +1,40 @@
-
-body{
-  background-color: rgb(6, 6, 80);
-  text-align: center;
+#hero-avatar{
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
 }
 
-body h1{
-  color:white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 60px;
+#hero-page{
+    background-image: url("./img/test1.avif");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-footer li{
-  color:white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  text-align: left;
+#stanley-dp{
+    border-radius: 50%;
+    border: solid grey;
 }
 
-footer h2{
-  color:white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-  text-align: left;
+#hero-avatar > p{
+    color: black;
 }
 
-p{
-  color:white;
-  font-size: 20px;
+#stanley-dp{
+    margin-bottom: 40px;
 }
 
-.top{
-  display: inline-flex;
-  background-color: black;
-  width: 100%;
-  height: 100px;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-
-  
+#quick-preview{
+    text-align: center;
+    background-image: url("./img/work_exp\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.content{
-  display: flex;
-  width: 100%;
-  height: 500px;
-  justify-content: center;
-  margin-top: 150px;
+#carousel-card > ol > li{
+    padding-bottom: 10px;
 }
 
-img{
-  border: solid gold;
+#carousel-card{
+    background-color: wheat;
 }
-
-.about-me-logo{
-  width: 60%;
-  height: 100%;
-  font-size: 60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:darkgoldenrod;
-  text-align: left;
-}
-
-.highlight {
-  color: white; /* Change color to black */
-}
-
-.tabs{
-  display:flex;
-  width: 70%;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 100%;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.tabs a {
-  color:white;
-  text-decoration: none; /* Remove underline from links */
-  padding: 5px; /* Add padding for spacing */
-  margin-top: 20px;
-}
-
-
-
-
